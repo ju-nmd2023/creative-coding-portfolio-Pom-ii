@@ -1,5 +1,15 @@
 [
   {
+    "file": "experiments/recreation-2.js",
+    "name": "right...",
+    "description": "I sneezed"
+  },
+  {
+    "file": "experiments/recreation-1.js",
+    "name": "idk man",
+    "description": "help me"
+  },
+  {
     "file": "experiments/example.js",
     "name": "Name of your experiment",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
