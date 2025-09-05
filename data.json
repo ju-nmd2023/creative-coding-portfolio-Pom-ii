@@ -1,17 +1,22 @@
 [
   {
     "file": "experiments/recreation-2.js",
-    "name": "right...",
-    "description": "I sneezed"
+    "name": "Michael Noll Recreation",
+    "description": "Inspired by Michael Noll, I tried to recreate the art by looking at it and taking way to long to fix one small line."
+  },
+  {
+    "file": "experiments/recreation-2-v1.js",
+    "name": "Michael Noll Variation - Colour",
+    "description": "Changed the colours to random pink to putple to blue tones."
+  },
+  {
+    "file": "experiments/recreation-2-v2.js",
+    "name": "Michael Noll Variation - Shape",
+    "description": "Replaced the rectangles with hearts, super kawaii."
   },
   {
     "file": "experiments/recreation-1.js",
     "name": "idk man",
     "description": "help me"
-  },
-  {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   }
 ]

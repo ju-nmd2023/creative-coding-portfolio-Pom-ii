@@ -9,6 +9,7 @@ function setup() {
 function element(x, y) {
   let b = round(random(1, 4));
   let randomNum = round(random(0, 1));
+  fill(random(0, 255), 0, random(0, 255));
 
   if (randomNum === 0) {
     rect(x, y, 5, b * 5);

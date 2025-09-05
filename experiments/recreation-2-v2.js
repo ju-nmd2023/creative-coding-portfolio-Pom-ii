@@ -7,14 +7,15 @@ function setup() {
 
 //CREATE THE RANDOM RECTANGLE ELEMENT
 function element(x, y) {
-  let b = round(random(1, 4));
-  let randomNum = round(random(0, 1));
-
-  if (randomNum === 0) {
-    rect(x, y, 5, b * 5);
-  } else {
-    rect(x, y, b * 5, 5);
-  }
+  fill(random(0, 255), 0, random(0, 255));
+  rect(x - 3, y - 2, 2, 1);
+  rect(x + 2, y - 2, 2, 1);
+  rect(x - 4, y - 1, 4, 2);
+  rect(x + 1, y - 1, 4, 2);
+  rect(x - 3, y + 1, 7, 1);
+  rect(x - 2, y + 2, 5, 1);
+  rect(x - 1, y + 3, 3, 1);
+  rect(x, y + 4, 1);
 }
 
 //CREATE ROWS BASED ON SYMMETRY
@@ -28,15 +29,9 @@ function row(number, amount) {
 
 function draw() {
   translate(innerWidth / 2, 200);
-  fill(0);
   noStroke();
   //let numberRows = round(random(100, 250));
   let numberRows = 80;
-
-  //MAKE THE NUMBER EVEN IF IT ISN'T
-  if (numberRows % 2 != 0) {
-    numberRows -= 1;
-  }
 
   // CREATE THE TOP ROWS
   for (let j = 10; j <= numberRows / 2; j += 2) {
